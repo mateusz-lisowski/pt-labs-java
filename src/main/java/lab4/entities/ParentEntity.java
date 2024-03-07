@@ -16,6 +16,10 @@ public class ParentEntity {
     @OneToMany(mappedBy = "parent", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<ChildEntity> children = new ArrayList<>();
 
+    public ParentEntity(String name) {
+        this.name = name;
+    }
+
     public String getName() {
         return name;
     }
@@ -26,10 +30,6 @@ public class ParentEntity {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public void setChildren(List<ChildEntity> children) {
-        this.children = children;
     }
 
 }

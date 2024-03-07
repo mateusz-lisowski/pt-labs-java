@@ -15,6 +15,11 @@ public class ChildEntity {
     @JoinColumn(name = "parent_id")
     private ParentEntity parent;
 
+    public ChildEntity(String name, ParentEntity parent) {
+        this.name = name;
+        this.parent = parent;
+    }
+
     public String getName() {
         return name;
     }
