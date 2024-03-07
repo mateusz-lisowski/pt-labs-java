@@ -14,44 +14,34 @@ public class Main {
         EntityManagerFactory entityManagerFactory = HibernateUtil.getEntityManagerFactory();
         EntityManager entityManager = entityManagerFactory.createEntityManager();
 
-        // Testowe dane do bazy
         entityManager.getTransaction().begin();
 
-        ParentEntity parentEntity = new ParentEntity();
-        parentEntity.setName("Parent 1");
+        // Adding first parent entity
 
-        ChildEntity childEntity1 = new ChildEntity();
-        childEntity1.setName("Child 1");
-        childEntity1.setParent(parentEntity);
-
-        ChildEntity childEntity2 = new ChildEntity();
-        childEntity2.setName("Child 2");
-        childEntity2.setParent(parentEntity);
+        ParentEntity parentEntity = new ParentEntity("Parent 1");
+        ChildEntity childEntity1 = new ChildEntity("Child 1", parentEntity);
+        ChildEntity childEntity2 = new ChildEntity("Child 2", parentEntity);
 
         parentEntity.getChildren().add(childEntity1);
         parentEntity.getChildren().add(childEntity2);
 
         entityManager.persist(parentEntity);
-
         entityManager.getTransaction().commit();
 
-        // Dodawanie nowych wpisów do bazy
+        // Adding second parent entity
+
         entityManager.getTransaction().begin();
 
-        ParentEntity parentEntity2 = new ParentEntity();
-        parentEntity2.setName("Parent 2");
-
-        ChildEntity childEntity3 = new ChildEntity();
-        childEntity3.setName("Child 3");
-        childEntity3.setParent(parentEntity2);
+        ParentEntity parentEntity2 = new ParentEntity("Parent 2");
+        ChildEntity childEntity3 = new ChildEntity("Child 3", parentEntity2);
 
         parentEntity2.getChildren().add(childEntity3);
 
         entityManager.persist(parentEntity2);
-
         entityManager.getTransaction().commit();
 
-        // Usuwanie wpisów z bazy
+        // Deleting parent 1 entity
+
         entityManager.getTransaction().begin();
 
         ParentEntity parentToDelete = entityManager.find(ParentEntity.class, 1L);
@@ -61,7 +51,8 @@ public class Main {
 
         entityManager.getTransaction().commit();
 
-        // Wyświetlenie wszystkich wpisów z bazy
+        // Printing out all parent entities
+
         List<ParentEntity> parents = entityManager.createQuery("SELECT p FROM ParentEntity p", ParentEntity.class).getResultList();
         System.out.println("All parent entities:");
         for (ParentEntity parent : parents) {
@@ -71,7 +62,8 @@ public class Main {
             }
         }
 
-        // Wynik zapytania zdefiniowanego przez prowadzącego
+        // Another example query
+
         List<ChildEntity> childrenWithParentId1 = entityManager.createQuery("SELECT c FROM ChildEntity c WHERE c.parent.id = 1", ChildEntity.class).getResultList();
         System.out.println("Children with parent id 1:");
         for (ChildEntity child : childrenWithParentId1) {
