@@ -2,7 +2,7 @@
 
 Main repo for labs from PT subject at GUT 2024.
 
-## Contents
+## Table of contents
 - Recursive data structures in Java
 - Parallel computing in Java
 - Websockets in Java
