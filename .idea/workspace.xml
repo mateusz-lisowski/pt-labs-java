@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="34f25e53-5e42-43fe-a1f4-24e56dcb3131" name="Changes" comment="Add test photo set">
+      <change beforePath="$PROJECT_DIR$/images/input/image10.jpg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2dKORJYfkKdOGJt6FsP93l6chT6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/sindbad_the_sailor/IdeaProjects/pt-labs/images/input",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sindbad_the_sailor\IdeaProjects\pt-labs\images\input" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sindbad_the_sailor\IdeaProjects\pt-labs\images\input" />
+      <recent name="C:\Users\sindbad_the_sailor\IdeaProjects\pt-labs\src\main\resources\META-INF" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ImageProcessingApp">
+    <configuration name="ImageProcessingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab6.ImageProcessingApp" />
+      <module name="maven-test" />
+      <option name="PROGRAM_PARAMETERS" value="images/input images/output" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab4.Main" />
+      <module name="maven-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EntityRepositoryJUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="repository" />
+      <option name="MAIN_CLASS_NAME" value="repository.EntityRepositoryJUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EntityRepositoryJUnitTest.saveEntity_Success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="repository" />
+      <option name="MAIN_CLASS_NAME" value="repository.EntityRepositoryJUnitTest" />
+      <option name="METHOD_NAME" value="saveEntity_Success" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ImageProcessingApp" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.EntityRepositoryJUnitTest" />
+      <item itemvalue="JUnit.EntityRepositoryJUnitTest.saveEntity_Success" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ImageProcessingApp" />
+        <item itemvalue="JUnit.EntityRepositoryJUnitTest" />
+        <item itemvalue="JUnit.EntityRepositoryJUnitTest.saveEntity_Success" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34f25e53-5e42-43fe-a1f4-24e56dcb3131" name="Changes" comment="" />
+      <created>1709753299260</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709753299260</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Renamed project">
+      <option name="closed" value="true" />
+      <created>1709753377066</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709753377066</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add class interfacing with Hibernate">
+      <option name="closed" value="true" />
+      <created>1709753628868</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709753628868</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add example child entity">
+      <option name="closed" value="true" />
+      <created>1709823584460</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709823584460</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add example parent entity">
+      <option name="closed" value="true" />
+      <created>1709823595409</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709823595409</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Change dependencies versions to older ones">
+      <option name="closed" value="true" />
+      <created>1709823622083</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709823622083</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Moved file to META-INF directory">
+      <option name="closed" value="true" />
+      <created>1709823640347</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709823640347</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add main entry point for the program">
+      <option name="closed" value="true" />
+      <created>1709823657115</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709823657115</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Defined class constructors">
+      <option name="closed" value="true" />
+      <created>1709835988798</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709835988798</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Simplify main function">
+      <option name="closed" value="true" />
+      <created>1709836037352</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709836037352</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add Mockito and JUnit to the dependencies">
+      <option name="closed" value="true" />
+      <created>1709839739738</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709839739738</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Implement Entity class">
+      <option name="closed" value="true" />
+      <created>1709839771742</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1709839771742</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Implement entity data transportation class">
+      <option name="closed" value="true" />
+      <created>1709839793605</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1709839793605</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Implement entity controller">
+      <option name="closed" value="true" />
+      <created>1709839803973</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1709839803973</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Implement entity repository class">
+      <option name="closed" value="true" />
+      <created>1709839821712</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1709839821712</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Implement entity repository class">
+      <option name="closed" value="true" />
+      <created>1709839825575</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1709839825575</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add full unit testing">
+      <option name="closed" value="true" />
+      <created>1709839858421</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1709839858421</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Add working lab no. 5">
+      <option name="closed" value="true" />
+      <created>1709839878227</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1709839878227</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Add apache image processing dependency">
+      <option name="closed" value="true" />
+      <created>1709841355230</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1709841355230</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Implement image processing app">
+      <option name="closed" value="true" />
+      <created>1709841371492</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1709841371492</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Add test photo set">
+      <option name="closed" value="true" />
+      <created>1709841389712</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1709841389712</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Renamed project" />
+    <MESSAGE value="Add class interfacing with Hibernate" />
+    <MESSAGE value="Add example child entity" />
+    <MESSAGE value="Add example parent entity" />
+    <MESSAGE value="Change dependencies versions to older ones" />
+    <MESSAGE value="Moved file to META-INF directory" />
+    <MESSAGE value="Add main entry point for the program" />
+    <MESSAGE value="Defined class constructors" />
+    <MESSAGE value="Simplify main function" />
+    <MESSAGE value="Add Mockito and JUnit to the dependencies" />
+    <MESSAGE value="Implement Entity class" />
+    <MESSAGE value="Implement entity data transportation class" />
+    <MESSAGE value="Implement entity controller" />
+    <MESSAGE value="Implement entity repository class" />
+    <MESSAGE value="Add full unit testing" />
+    <MESSAGE value="Add working lab no. 5" />
+    <MESSAGE value="Add apache image processing dependency" />
+    <MESSAGE value="Implement image processing app" />
+    <MESSAGE value="Add test photo set" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add test photo set" />
+  </component>
+</project>
